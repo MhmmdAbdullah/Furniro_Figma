@@ -1,0 +1,64 @@
+@import "tailwindcss";
+
+:root {
+  --dark: #000000;
+  --dark-alternate: #1b1918;
+  --primary: #b88e2f;
+  --primary-lighthome1: #fff3e3;
+  --primary-lighthome2: #fcf8f3;
+  --primary-light: #f9f1e7;
+}
+
+@theme inline {
+  --color-dark: var(--dark);
+  --color-dark-alternate: var(--dark-alternate);
+  --color-primary: var(--primary);
+  --color-primary-lighthome1: var(--primary-lighthome1);
+  --color-primary-lighthome2: var(--primary-lighthome2);
+  --color-primary-light: var(--primary-light);
+  --font-poppins: var(--font-poppins);
+}
+
+html, body {
+  overflow-x: hidden;
+}
+
+header {
+  display: flex;
+  justify-content: 
+  space-between
+}
+
+
+* {
+  @apply font-poppins;
+}
+
+.input-group {
+  @apply mb-5;
+}
+
+.input-group label {
+  @apply block text-base mb-4.5 font-medium;
+}
+
+.input-group input,
+.input-group textarea {
+  @apply px-7 py-5 w-full focus:border-gray-400 outline-none text-sm rounded-[10px];
+}
+
+/* INPUT GROUP ADMIN */
+
+.input-group-admin {
+  @apply mb-0;
+}
+
+.input-group-admin label {
+  @apply block text-xs mb-2 font-medium;
+}
+
+.input-group-admin input,
+.input-group-admin select,
+.input-group-admin textarea {
+  @apply px-4 py-2 w-full border border-[#DBDBDB] rounded-md focus:border-gray-400 outline-none text-sm;
+}
