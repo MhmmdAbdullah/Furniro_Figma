@@ -1,8 +1,8 @@
 type TButtonProps = {
     children: React.ReactNode;
     className?: string;
-    variant?: "primary" | "transparant" | "ghost";
-    size?: "normal" | "normal1";
+    variant?: "primary" | "transparant" | "transparant1";
+    size?: "normal" | "normal1" | "normal2";
 }   & React.ButtonHTMLAttributes<HTMLButtonElement>;
 
 const Button = ({ 
@@ -17,12 +17,13 @@ const Button = ({
     const variants = {
         primary : 'bg-primary text-white hover:bg-primary-85',
         transparant :  'border border-primary text-primary',
-        ghost : 'bg-transparent hover:bg-gray-100 text-dark',
+        transparant1 : 'border border-black text-black rounded-xl',
     }
 
     const sizes = {
         normal: 'px-9 py-3 md:px-18 md:py-6',
         normal1: 'px-20 py-3',
+        normal2: 'px-12 py-4',
     }
 
     return (

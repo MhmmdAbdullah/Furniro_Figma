@@ -1,4 +1,4 @@
-import Benefits from "../components/shop/benefits";
+import Benefits from "../components/ui/benefits";
 import Filter from "../components/shop/filter";
 import ProductList from "../components/shop/product-list";
 import ShopHero from "../components/shop/shop-hero";

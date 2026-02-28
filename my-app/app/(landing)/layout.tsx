@@ -3,6 +3,7 @@ import { Poppins } from "next/font/google";
 import "../globals.css";
 import Header from "./components/layout/header";
 import Footer from "./components/layout/footer";
+import '@wordpress/components/build-style/style.css';
 
 const poppins = Poppins({
   variable: "--font-poppins",

@@ -10,6 +10,9 @@
   },
   "dependencies": {
     "@ant-design/icons": "~6.1.0",
+    "@wordpress/components": "^32.2.0",
+    "@wordpress/element": "^6.40.0",
+    "@wordpress/icons": "^11.7.0",
     "akar": "^1.18.0",
     "akar-icons": "^1.9.31",
     "ant-design": "^1.0.0",

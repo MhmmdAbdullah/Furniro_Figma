@@ -161,7 +161,10 @@ const ProductList = () => {
         </div>
         <div className="flex gap-9.5 justify-center items-center">
           {number.map((num, index) => (
-            <div className="w-15 h-15 bg-primary-light flex justify-center items-center rounded-lg">
+            <div
+              key={index}
+              className="w-15 h-15 bg-primary-light flex justify-center items-center rounded-lg"
+            >
               {num}
             </div>
           ))}
